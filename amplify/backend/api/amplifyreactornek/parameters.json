@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "amplifyreactornek",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifyreactornek8210e554",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
